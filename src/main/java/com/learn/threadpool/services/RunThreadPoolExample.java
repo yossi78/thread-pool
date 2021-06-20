@@ -6,8 +6,6 @@ import org.springframework.stereotype.Service;
 import java.util.concurrent.Executor;
 
 
-
-
 @Service
 public class RunThreadPoolExample {
 
