@@ -16,7 +16,7 @@ public class RunThreadPoolExample {
     @Autowired
     public RunThreadPoolExample(@Qualifier("taskExecutor") Executor executor)  {
         this.executor=executor;
-        runThreadPool();
+       // runThreadPool();
     }
 
 

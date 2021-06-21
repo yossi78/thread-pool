@@ -15,7 +15,7 @@ public class AsyncConfig extends AsyncConfigurerSupport {
 
 
     private static Integer threadPoolSize = 10;
-    private static Integer queueCapacity = 10;
+    private static Integer queueCapacity = 30;
 
 
     @Bean(name = "taskExecutor")

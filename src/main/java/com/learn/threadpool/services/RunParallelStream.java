@@ -20,7 +20,7 @@ public class RunParallelStream {
     @Autowired
     public RunParallelStream(@Qualifier("taskExecutor") Executor executor) {
       this.executor=executor;
-    //    runParallelStream();
+       runParallelStream();
     }
 
 
